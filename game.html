@@ -1,0 +1,73 @@
+""
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chill Game</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="game.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <section class="game">
+
+
+  </section>
+
+
+  <div class="wrapper">
+
+    <div class="side left">
+      <div class="image dog"></div>
+      <div class="caption">
+        <h1 id="left"></h1>
+        <br>
+        <h2 id="pointz"> </h2>
+
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center rounded-full bg-gray-900 text-yellow-200 text-3xl font-bold h-[6.25rem] w-[6.25rem] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[9999]">
+      VS</div>
+    <div class="side right">
+      <div class="image cat"></div>
+      <div class="caption">
+        <h1 id="right"></h1>
+        <br>
+        <!--                 TRYING TO UNHIDE -->
+        <h2 class="" id="points"> </h2>
+        <div class="columnz">
+          <!--                     <a id="morebutton" class="button" href="#">More</a> -->
+          <button id="morebutton"
+            class="bg-transparent border-2 px-2 py-3 w-[12.5rem] text-yellow-500 font-bold border-solid border-white rounded-full hover:bg-white hover:text-black transition"
+            id="lessbutton">
+            More </button>
+          <br>
+          <!--                     <a id="lessbutton" class="button" href="#">Less</a> -->
+          <button id="lessbutton"
+            class="bg-transparent border-2 px-2 py-3 w-[12.5rem] text-yellow-500 font-bold border-solid border-white rounded-full hover:bg-white hover:text-black transition"
+            id="lessbutton">
+            Less </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bg-gray-900 p-4 absolute bottom-0 right-0 text-2xl text-slate-50">
+    <p id="score">
+      Score: 0
+    </p>
+  </div>
+
+  <script src="style.js" type="module" defer></script>
+</body>
+
+</html>
