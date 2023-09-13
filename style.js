@@ -36,7 +36,6 @@ const getRandomInt = (max) => {
 const options = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': '6f1a290f7amsh8fc3bb1ffcc8529p107027jsn01318af8f005',
     'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com',
   },
   params: { team: '1', season: '2021' },
